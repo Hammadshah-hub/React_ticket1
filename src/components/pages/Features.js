@@ -1,6 +1,8 @@
 import React from 'react';
 import { Container, Row, Col, Accordion } from 'react-bootstrap';
-import '../assets/css/Features.css';
+import '../../assets/css/Features.css';
+
+
 
 const Features = () => (
     <Container fluid className="features-container">
@@ -51,7 +53,6 @@ const Features = () => (
                                 </p>
                             </Accordion.Body>
                         </Accordion.Item>
-                        {/* Add more Accordion.Items as needed */}
                     </Accordion>
                 </Col>
             </Row>
