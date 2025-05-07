@@ -1,8 +1,8 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
-import heroImg from '../../assets/img/img1.png';
-import navImg from '../../assets/img/img2.png';
-import '../../assets/css/Hero.css';
+import heroImg from '../../../assets/img/img1.png';
+import navImg from '../../../assets/img/img2.png';
+import '../../../assets/css/style.css';
 
 const Hero = () => (
     <div className="container hero-section">

@@ -1,12 +1,12 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import '../../assets/css/Portflilo.css';
-import p1 from '../../assets/img/p1.png';
-import p2 from '../../assets/img/p2.png';
-import p3 from '../../assets/img/p3.png';
-import p4 from '../../assets/img/p4.png';
-import p5 from '../../assets/img/p5.png';
-import p6 from '../../assets/img/p6.png';
+import '../../../assets/css/style.css';
+import p1 from '../../../assets/img/p1.png';
+import p2 from '../../../assets/img/p2.png';
+import p3 from '../../../assets/img/p3.png';
+import p4 from '../../../assets/img/p4.png';
+import p5 from '../../../assets/img/p5.png';
+import p6 from '../../../assets/img/p6.png';
 
 const portfolioItems = [
     { img: p1, title: 'Daily App', subtitle: 'Increasing your productivity' },
@@ -18,7 +18,7 @@ const portfolioItems = [
 ];
 
 const Portfolio = () => (
-    <div  className="portfolio-section container-fluid">
+    <div className="portfolio-section container-fluid">
         <Container >
             <Row>
                 <Col lg={2}>

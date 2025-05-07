@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Accordion } from 'react-bootstrap';
-import '../../assets/css/Features.css';
+import '../../../assets/css/style.css';
 
 
 

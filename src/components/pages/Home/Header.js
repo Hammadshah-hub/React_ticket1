@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Navbar, Nav } from 'react-bootstrap';
 import { FaChevronRight } from 'react-icons/fa';
-import '../../assets/css/Header.css';
+import '../../../assets/css/style.css';
 
 const Header = () => {
     return (
